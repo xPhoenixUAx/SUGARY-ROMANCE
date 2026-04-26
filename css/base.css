@@ -1080,12 +1080,20 @@ h3,
   color: var(--color-muted);
 }
 
-.drawer-contact-list a,
-.drawer-contact-list span {
+.drawer-contact-list > a,
+.drawer-contact-list > span {
   display: grid;
   grid-template-columns: 22px minmax(0, 1fr);
   gap: 12px;
   align-items: start;
+}
+
+.drawer-contact-list > a > span,
+.drawer-contact-list > span > span {
+  min-width: 0;
+  line-height: 1.45;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .drawer-icon {
