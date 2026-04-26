@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sugary Romance Media">
+  <rect width="64" height="64" rx="18" fill="#050606"/>
+  <circle cx="25" cy="25" r="13" fill="none" stroke="#d8ff3e" stroke-width="8"/>
+  <circle cx="39" cy="39" r="13" fill="none" stroke="#d8ff3e" stroke-width="8"/>
+  <circle cx="25" cy="25" r="5" fill="#050606"/>
+  <circle cx="39" cy="39" r="5" fill="#050606"/>
+</svg>

@@ -1273,15 +1273,41 @@
 
 @media (max-width: 680px) {
   .intro-collage {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(118px, 0.78fr);
+    gap: 12px;
+    align-items: stretch;
   }
 
   .intro-image-large {
-    min-height: 360px;
+    min-height: 0;
+    height: 100%;
+    border-radius: 16px 16px 16px 44px;
+  }
+
+  .intro-stack {
+    gap: 12px;
   }
 
   .intro-image-small {
-    min-height: 220px;
+    min-height: 0;
+    aspect-ratio: 0.92;
+    border-radius: 16px 44px 16px 16px;
+  }
+
+  .intro-stat {
+    min-height: 0;
+    padding: 16px;
+    border-radius: 16px 16px 44px 16px;
+  }
+
+  .intro-stat strong {
+    margin-bottom: 8px;
+    font-size: clamp(1.35rem, 8vw, 2.1rem);
+  }
+
+  .intro-stat span {
+    font-size: 0.82rem;
+    line-height: 1.28;
   }
 
   .intro-proof {
@@ -1314,26 +1340,56 @@
   }
 
   .why-visual {
-    min-height: auto;
-    display: grid;
-    gap: 18px;
+    min-height: clamp(360px, 112vw, 470px);
+    width: min(100%, 480px);
+    max-width: 480px;
+    margin-inline: auto;
   }
 
   .why-image-frame,
   .why-image-primary,
   .why-image-secondary {
-    position: relative;
-    inset: auto;
-    width: 100%;
-    height: auto;
-    min-height: 300px;
+    position: absolute;
+    min-height: 0;
     animation: none;
+    overflow: hidden;
+  }
+
+  .why-image-primary {
+    top: 0;
+    left: 0;
+    width: min(76%, 340px);
+    height: auto;
+    aspect-ratio: 0.78;
+    border-radius: 82px 22px 82px 22px;
+  }
+
+  .why-image-primary img {
+    width: 100%;
+    height: 100%;
+    border-radius: 70px 14px 70px 14px;
+  }
+
+  .why-image-secondary {
+    right: 0;
+    bottom: 34px;
+    width: min(58%, 250px);
+    height: auto;
+    aspect-ratio: 0.92;
+    border-radius: 22px 74px 22px 74px;
+  }
+
+  .why-image-secondary img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px 62px 14px 62px;
   }
 
   .why-badge {
-    position: relative;
-    inset: auto;
-    justify-self: start;
+    right: auto;
+    top: auto;
+    left: 18px;
+    bottom: 0;
     animation: none;
   }
 

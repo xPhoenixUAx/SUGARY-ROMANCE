@@ -10,7 +10,10 @@ The website uses the supplied reference as a broad style direction: dark agency 
 
 - `index.html` - Home
 - `services.html` - Services overview
-- `service-detail.html` - Reusable service detail template
+- `service-detail.html` - Full-Cycle Digital Partner service detail page
+- `service-strategy.html` - Strategy & Campaign Systems detail page
+- `service-design.html` - Web Design & Landing Pages detail page
+- `service-development.html` - Development & Support detail page
 - `about.html` - Company and process
 - `contact.html` - Inquiry form
 - `privacy.html` - Privacy Policy
@@ -22,7 +25,7 @@ The website uses the supplied reference as a broad style direction: dark agency 
 
 - Home: header, hero, capability strip, services overview, full-cycle process, reasons to choose the company, case-style block, CTA, footer.
 - Services: page hero, category overview, expanded service cards, process note, CTA.
-- Service Detail: hero, summary, problems solved, inclusions, approach, deliverables, best-fit clients, business impact, FAQ, CTA.
+- Full-Cycle Service Detail: hero, summary, problems solved, inclusions, approach, deliverables, best-fit clients, business impact, FAQ, CTA.
 - About: introduction, services overview, full-cycle approach, principles, client fit, project handling, address, CTA.
 - Contact: intro, form, submission expectations, ideal project fit, email contact.
 - Legal pages: readable policy structures for privacy, terms, and cookies.
