@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract studio planning image placeholder</title>
+  <desc id="desc">A dark structural placeholder for future brand imagery.</desc>
+  <rect width="1600" height="900" fill="#050606"/>
+  <g opacity=".26">
+    <rect x="930" y="160" width="360" height="470" rx="130" fill="#d8ff3e"/>
+    <rect x="980" y="190" width="300" height="410" rx="110" fill="#141717"/>
+    <rect x="1090" y="210" width="330" height="430" rx="120" fill="#d8ff3e"/>
+    <rect x="1140" y="240" width="270" height="370" rx="96" fill="#202424"/>
+  </g>
+  <g opacity=".14" stroke="#f4f5f1" stroke-width="2">
+    <path d="M80 690 C270 590 350 760 540 650 S820 520 980 690"/>
+    <path d="M-40 300 C170 170 300 360 490 240 S790 120 980 260"/>
+  </g>
+  <circle cx="1280" cy="120" r="180" fill="#d8ff3e" opacity=".12"/>
+</svg>

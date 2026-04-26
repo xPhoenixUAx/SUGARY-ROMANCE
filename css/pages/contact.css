@@ -1,0 +1,21 @@
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.58fr) minmax(320px, 0.42fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.contact-form-card {
+  padding: clamp(24px, 4vw, 42px);
+}
+
+.contact-info {
+  display: grid;
+  gap: 18px;
+}
+
+@media (max-width: 980px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}
